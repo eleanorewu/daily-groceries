@@ -181,7 +181,9 @@ $color-main:#1d4872;
 
 
     /* QnA */
-    
+    .QAtitle-box{
+        height:100%;
+    }
     .QAtitle{
         text-align: center;
         font-size: 2em;
@@ -554,7 +556,79 @@ $color-main:#1d4872;
         height: auto;
       }
 }
+// about me
+.aboutme{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
 
+    .aboutme-title{
+        color:$color-main;
+        font-size: 2em;
+        font-weight: 800; 
+        padding-bottom: 15px;
+        border-bottom: 1px dashed #000;
+    }
+    h2{
+        color:#1d4872;
+        margin-top: 30px;
+    }
+    p{
+        width: 50%;
+        margin-top: 30px;
+        // display: block;
+        font-weight: 600;
+        line-height: 200%;
+        color:#1d4872;
+        letter-spacing: 3px;
+        margin: auto;
+        }
+        
+    #map{
+        margin-top: 30px;
+        width:600px;
+        height: auto;
+        margin: auto;
+      }
+}
+// contactus
+#contactus{
+    width: 100%;
+    margin-top: 30px;
+    // text-align: center;
+    vertical-align: middle;
+    h2{
+        color:#1d4872;
+
+    }
+    p{
+        margin-top: 30px;
+        color:#1d4872;
+
+    }
+
+}  
+    .contactus-box{
+        width: 600px;
+        height: 480px;
+        border: 1.5px solid #1d4772b6;
+        margin: auto;
+        padding: 10px 50px;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 1;
+    }
+    
+    #name-box,#phone-box,#email-box,#content-box{
+        width: 100%;
+        background-color:#fff;
+        margin: 5px 0;
+        border: 1px solid #1d4872;
+        box-sizing: border-box;
+        // padding-left: 10px;
+        border-radius: 5px;
+        }
 //RWD
 /* 當螢幕寬度小於等於 1023 像素 - 平板 */
 @media screen and (max-width: 1023px) {
