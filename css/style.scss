@@ -539,6 +539,12 @@ $color-main:#1d4872;
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    .product-img img{
+        text-align: center;
+        width: 650px;
+        height: 650px;
+        object-fit: cover;
+    }
 }
 
 // about me
@@ -707,6 +713,12 @@ $color-main:#1d4872;
             width: 450px;
             object-fit: cover;
         }
+        .product-img img{
+            text-align: center;
+            width: 450px;
+            height: 450px;
+            object-fit: cover;
+        }
     }
     // footer調整
     #footer{
@@ -744,11 +756,12 @@ $color-main:#1d4872;
             height: auto;
             object-fit: cover;
             vertical-align: middle; 
-            padding: 30px 30px;
+            padding: 30px auto;
             margin: 20px auto;
         }
         #show-image{
-            width: 400px;
+            width: 500px;
+            height: 500px;
             object-fit: cover;
         }
         
@@ -760,8 +773,8 @@ $color-main:#1d4872;
             margin-right: 10px;
         }
         .abgne-block-20120106 a img {
-            width: 90px;
-            height: 90px;
+            width: 80px;
+            height: 80px;
             object-fit: cover;
         }
     
@@ -770,7 +783,7 @@ $color-main:#1d4872;
             height: auto;
             object-fit: cover;
             vertical-align: middle; 
-            padding: 30px 30px;
+            padding: 30px auto;
             margin: 20px auto;
         }
     }
@@ -787,6 +800,7 @@ $color-main:#1d4872;
         .product-img{
             text-align: center;
             width: 650px;
+            height: 650px;
             object-fit: cover;
             margin: 30px auto;
             padding: 0px auto;
@@ -824,8 +838,8 @@ $color-main:#1d4872;
         }
     }
 }
-/* 當螢幕寬度小於等於 700像素 - 手機 */
-@media screen and (max-width: 700px) {
+/* 當螢幕寬度小於等於 750像素 - 手機 */
+@media screen and (max-width: 750px) {
     // product-box
     .product-box{
         width: 100%;
@@ -835,32 +849,33 @@ $color-main:#1d4872;
      
     }
     .showbox01 {
-        width: 40px;
-        height: auto;
+        width: 400px;
+        height: 400px;
         object-fit: cover;
         vertical-align: middle; 
-        padding: 30px 30px;
-        margin: 20px auto;
+        padding: 20px auto;
+        margin: 10px auto;
     }
     .showbox02 {
-        width:350px;
+        width:400px;
         height: auto;
         object-fit: cover;
         vertical-align: middle; 
-        padding: 30px 30px;
-        margin: 20px auto;
+        padding: 20px auto;
+        margin: 10px auto;
     }
     #show-image{
-        width: 400px;
+        width: 350px;
+        height: 350px;
         object-fit: cover;
     }
     .abgne-block-20120106 a img {
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
         object-fit: cover;
     }
     .product-imgdescribe {
-        width: 400px;
+        width: 420px;
         margin: 10px auto;
         padding: 0px auto;
     
@@ -871,7 +886,9 @@ $color-main:#1d4872;
             width: 400px;
         }
         .product-img img{
-            width: 300px;
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
         }
     }
     // 主頁購買區塊
