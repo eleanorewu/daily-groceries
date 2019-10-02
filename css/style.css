@@ -681,7 +681,6 @@ fieldset {
   border-radius: 5px;
 }
 
-/* 當螢幕寬度小於等於 1800 像素 - */
 /* 當螢幕寬度小於等於 1500 像素 - */
 @media screen and (max-width: 1500px) {
   .product-box {
@@ -694,7 +693,7 @@ fieldset {
     padding: 0px auto;
   }
   .product-box .showbox01 {
-    width: 450px;
+    width: 550px;
     height: auto;
     -o-object-fit: cover;
        object-fit: cover;
@@ -703,8 +702,8 @@ fieldset {
     margin: 50px auto;
   }
   .product-box #show-image {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -716,13 +715,13 @@ fieldset {
     margin-right: 10px;
   }
   .product-box .abgne-block-20120106 a img {
-    width: 40px;
-    height: 40px;
+    width: 90px;
+    height: 90px;
     -o-object-fit: cover;
        object-fit: cover;
   }
   .product-box .showbox02 {
-    width: 450px;
+    width: 550px;
     height: auto;
     -o-object-fit: cover;
        object-fit: cover;
@@ -780,11 +779,10 @@ fieldset {
        object-fit: cover;
     vertical-align: middle;
     padding: 30px 30px;
-    margin: 50px auto;
+    margin: 20px auto;
   }
   .product-box #show-image {
     width: 500px;
-    height: 500px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -796,8 +794,8 @@ fieldset {
     margin-right: 10px;
   }
   .product-box .abgne-block-20120106 a img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -808,7 +806,7 @@ fieldset {
        object-fit: cover;
     vertical-align: middle;
     padding: 30px 30px;
-    margin: 50px auto;
+    margin: 20px auto;
   }
   .product-imgdescribe {
     width: 900px;
@@ -869,7 +867,7 @@ fieldset {
        object-fit: cover;
     vertical-align: middle;
     padding: 30px 30px;
-    margin: 50px auto;
+    margin: 20px auto;
   }
   .showbox02 {
     width: 450px;
@@ -878,7 +876,7 @@ fieldset {
        object-fit: cover;
     vertical-align: middle;
     padding: 30px 30px;
-    margin: 50px auto;
+    margin: 20px auto;
   }
   .product-imgdescribe {
     width: 550px;

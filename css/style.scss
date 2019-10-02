@@ -648,7 +648,6 @@ $color-main:#1d4872;
         }
 
 //RWD
-/* 當螢幕寬度小於等於 1800 像素 - */
 
 /* 當螢幕寬度小於等於 1500 像素 - */
 @media screen and (max-width: 1500px) {
@@ -660,7 +659,7 @@ $color-main:#1d4872;
         margin: 30px auto;
         padding: 0px auto;
         .showbox01 {
-            width: 450px;
+            width: 550px;
             height: auto;
             object-fit: cover;
             vertical-align: middle; 
@@ -668,8 +667,8 @@ $color-main:#1d4872;
             margin: 50px auto;
         }
         #show-image{
-            width: 400px;
-            height: 400px;
+            width: 500px;
+            height: 500px;
             object-fit: cover;
         }
         
@@ -681,13 +680,13 @@ $color-main:#1d4872;
             margin-right: 10px;
         }
         .abgne-block-20120106 a img {
-            width: 40px;
-            height: 40px;
+            width: 90px;
+            height: 90px;
             object-fit: cover;
         }
     
         .showbox02 {
-            width:450px;
+            width:550px;
             height: auto;
             object-fit: cover;
             vertical-align: middle; 
@@ -746,11 +745,10 @@ $color-main:#1d4872;
             object-fit: cover;
             vertical-align: middle; 
             padding: 30px 30px;
-            margin: 50px auto;
+            margin: 20px auto;
         }
         #show-image{
             width: 500px;
-            height: 500px;
             object-fit: cover;
         }
         
@@ -762,8 +760,8 @@ $color-main:#1d4872;
             margin-right: 10px;
         }
         .abgne-block-20120106 a img {
-            width: 100px;
-            height: 100px;
+            width: 90px;
+            height: 90px;
             object-fit: cover;
         }
     
@@ -773,7 +771,7 @@ $color-main:#1d4872;
             object-fit: cover;
             vertical-align: middle; 
             padding: 30px 30px;
-            margin: 50px auto;
+            margin: 20px auto;
         }
     }
     .product-imgdescribe {
@@ -838,7 +836,7 @@ $color-main:#1d4872;
         object-fit: cover;
         vertical-align: middle; 
         padding: 30px 30px;
-        margin: 50px auto;
+        margin: 20px auto;
     }
     .showbox02 {
         width:450px;
@@ -846,7 +844,7 @@ $color-main:#1d4872;
         object-fit: cover;
         vertical-align: middle; 
         padding: 30px 30px;
-        margin: 50px auto;
+        margin: 20px auto;
     }
     .product-imgdescribe {
         width: 550px;
