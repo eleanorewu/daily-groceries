@@ -315,7 +315,12 @@ $color-main:#1d4872;
     font-size: 14px;
     font-weight: 900;
     text-decoration: none;
+    opacity: 0.85;
     }
+.btn:hover{
+    opacity: 1;
+    color:#fff;
+        }
   /* 預留文字 */
   ::placeholder{
     color:#ccc
@@ -620,11 +625,7 @@ $color-main:#1d4872;
         .contactpic{
             width: 650px;
         }
-
     }
-    
-   
-
 }  
     .contactus-box{
         width: 600px;
@@ -635,7 +636,6 @@ $color-main:#1d4872;
         font-weight: 900;
         line-height: 1;
         text-align: left;
-    
     }
     
     #name-box,#phone-box,#email-box,#content-box{
@@ -675,12 +675,12 @@ $color-main:#1d4872;
 
 /* 當螢幕寬度小於等於 1379 像素 - */
 @media screen and (max-width: 1379px) {
+
     // 會員登入
-  // 會員登入
-  #login{
-    width: 100%;
-    grid-template-columns:1fr;
-    height: 900px;
+    #login{
+        width: 100%;
+        grid-template-columns:1fr;
+        height: 900px;
     }
     // footer調整
     #footer{

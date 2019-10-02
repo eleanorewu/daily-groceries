@@ -322,6 +322,12 @@ fieldset {
   font-size: 14px;
   font-weight: 900;
   text-decoration: none;
+  opacity: 0.85;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: #fff;
 }
 
 /* 預留文字 */
