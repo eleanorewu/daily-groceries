@@ -629,27 +629,40 @@ fieldset {
 #contactus {
   width: 100%;
   margin-top: 30px;
+  text-align: center;
   vertical-align: middle;
 }
 
-#contactus h2 {
+#contactus .contactus-2 {
+  margin: 20px auto;
+}
+
+#contactus .contactus-2 h2 {
   color: #1d4872;
 }
 
-#contactus p {
+#contactus .contactus-2 p {
+  width: 650px;
   margin-top: 30px;
   color: #1d4872;
+  margin: 20px auto;
+  padding: 0 30px;
+  line-height: 12px;
+}
+
+#contactus .contactus-2 .contactpic {
+  width: 650px;
 }
 
 .contactus-box {
   width: 600px;
-  height: 480px;
   border: 1.5px solid #1d4772b6;
-  margin: auto;
-  padding: 10px 50px;
+  margin: 20px auto;
+  padding: 15px 50px;
   font-size: 20px;
   font-weight: 900;
   line-height: 1;
+  text-align: left;
 }
 
 #name-box, #phone-box, #email-box, #content-box {
