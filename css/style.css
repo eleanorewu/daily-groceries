@@ -439,12 +439,13 @@ fieldset {
 }
 
 .product-box {
-  width: 100%;
+  width: 1200px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 45% 55%;
-      grid-template-columns: 45% 55%;
-  margin: 30px 50px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin: 30px auto;
+  padding: 0px auto;
 }
 
 .showbox01 {
@@ -452,8 +453,7 @@ fieldset {
   height: 650px;
   vertical-align: middle;
   padding: 30px 30px;
-  margin-top: 30px;
-  margin-left: 250px;
+  margin: 0 auto;
 }
 
 #show-image {
@@ -490,8 +490,7 @@ fieldset {
   height: 550px;
   vertical-align: middle;
   padding: 30px 30px;
-  margin-top: 30px;
-  margin-right: 250px;
+  margin: 0 auto;
 }
 
 .showbox02 .product-box-text h1 {
@@ -548,21 +547,26 @@ fieldset {
 }
 
 .product-imgdescribe {
-  width: 100%;
+  width: 1200px;
   border-top: 1px dashed #000;
-  margin-top: 100px;
-  margin-left: 300px;
-  padding-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  margin: 30px auto;
+  padding: 0px auto;
 }
 
 .product-imgdescribe .product-imgdescribe h4 {
+  width: 450px;
   margin-top: 100px;
   margin-left: 200px;
   font-size: 1.5em;
 }
 
 .product-imgdescribe .product-img {
-  width: 450px;
+  text-align: center;
+  width: 750px;
   -o-object-fit: cover;
      object-fit: cover;
   margin-top: 50px;
@@ -677,8 +681,69 @@ fieldset {
   border-radius: 5px;
 }
 
+/* 當螢幕寬度小於等於 1800 像素 - */
 /* 當螢幕寬度小於等於 1500 像素 - */
 @media screen and (max-width: 1500px) {
+  .product-box {
+    width: 1000px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin: 30px auto;
+    padding: 0px auto;
+  }
+  .product-box .showbox01 {
+    width: 450px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    vertical-align: middle;
+    padding: 30px 30px;
+    margin: 50px auto;
+  }
+  .product-box #show-image {
+    width: 400px;
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .product-box .abgne-block-20120106 {
+    margin-top: 10px;
+    width: 450px;
+  }
+  .product-box .abgne-block-20120106 a {
+    margin-right: 10px;
+  }
+  .product-box .abgne-block-20120106 a img {
+    width: 40px;
+    height: 40px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .product-box .showbox02 {
+    width: 450px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    vertical-align: middle;
+    padding: 30px 30px;
+    margin: 50px auto;
+  }
+  .product-imgdescribe {
+    width: 1000px;
+    margin: 30px auto;
+    padding: 0px auto;
+  }
+  .product-imgdescribe .product-imgdescribe h4 {
+    width: 450px;
+  }
+  .product-imgdescribe .product-img {
+    text-align: center;
+    width: 450px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   #footer {
     width: 100%;
   }
@@ -700,6 +765,65 @@ fieldset {
 
 /* 當螢幕寬度小於等於 1379 像素 - */
 @media screen and (max-width: 1379px) {
+  .product-box {
+    width: 900px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    margin: 30px auto;
+  }
+  .product-box .showbox01 {
+    width: 550px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    vertical-align: middle;
+    padding: 30px 30px;
+    margin: 50px auto;
+  }
+  .product-box #show-image {
+    width: 500px;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .product-box .abgne-block-20120106 {
+    margin-top: 10px;
+    width: 550px;
+  }
+  .product-box .abgne-block-20120106 a {
+    margin-right: 10px;
+  }
+  .product-box .abgne-block-20120106 a img {
+    width: 100px;
+    height: 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .product-box .showbox02 {
+    width: 550px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    vertical-align: middle;
+    padding: 30px 30px;
+    margin: 50px auto;
+  }
+  .product-imgdescribe {
+    width: 900px;
+    margin: 30px auto;
+    padding: 0px auto;
+  }
+  .product-imgdescribe .product-imgdescribe h4 {
+    width: 350px;
+  }
+  .product-imgdescribe .product-img {
+    text-align: center;
+    width: 350px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   #login {
     width: 100%;
     -ms-grid-columns: 1fr;
@@ -727,6 +851,46 @@ fieldset {
 
 /* 當螢幕寬度小於等於 770像素 - 手機 */
 @media screen and (max-width: 770px) {
+  .product-box {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    margin: 30px auto;
+  }
+  .showbox01 {
+    width: 450px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    vertical-align: middle;
+    padding: 30px 30px;
+    margin: 50px auto;
+  }
+  .showbox02 {
+    width: 450px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    vertical-align: middle;
+    padding: 30px 30px;
+    margin: 50px auto;
+  }
+  .product-imgdescribe {
+    width: 550px;
+    margin: 30px auto;
+    padding: 0px auto;
+  }
+  .product-imgdescribe .product-imgdescribe h4 {
+    width: 350px;
+  }
+  .product-imgdescribe .product-img {
+    width: 550px;
+  }
+  .product-imgdescribe .product-img img {
+    width: 450px;
+  }
   .buy-left {
     padding-right: 15px !important;
     height: 330px !important;
