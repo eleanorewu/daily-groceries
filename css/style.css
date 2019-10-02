@@ -745,6 +745,17 @@ fieldset {
         grid-template-columns: 1fr;
     height: 900px;
   }
+  #contactus {
+    width: 100%;
+  }
+  .contactus-2 {
+    width: 100%;
+    padding: 0 5px;
+  }
+  .contactus-2 .contactpic {
+    width: 150px;
+    margin: 0 auto;
+  }
   #footer {
     width: 100%;
   }

@@ -647,6 +647,7 @@ $color-main:#1d4872;
         // padding-left: 10px;
         border-radius: 5px;
         }
+        
 //RWD
 /* 當螢幕寬度小於等於 1500 像素 - */
 @media screen and (max-width: 1500px) {
@@ -724,6 +725,20 @@ $color-main:#1d4872;
         grid-template-columns:1fr;
         height: 900px;
         }
+    // contactus
+    #contactus{
+        width: 100%;
+    }
+    .contactus-2{
+        width: 100%;
+        padding: 0 5px;
+        .contactpic{
+            width: 150px;
+            margin: 0 auto;
+        }
+    }
+   
+    
     // footer調整
     #footer{
         width: 100%;
@@ -734,16 +749,11 @@ $color-main:#1d4872;
         height: 100%;
         margin: 15px auto;
         padding: 5px 30px;
-       
-        
-        
         h5{
             width: 100%;
         }
-
         content{
             width: 100%;
-    
         }
     }
 }
