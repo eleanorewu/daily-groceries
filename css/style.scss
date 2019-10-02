@@ -653,6 +653,7 @@ $color-main:#1d4872;
 //RWD
 /* 當螢幕寬度小於等於 1500 像素 - */
 @media screen and (max-width: 1500px) {
+    // footer調整
     #footer{
         width: 100%;
     }
@@ -677,6 +678,7 @@ $color-main:#1d4872;
 
 /* 當螢幕寬度小於等於 1379 像素 - */
 @media screen and (max-width: 1379px) {
+    // footer調整
     #footer{
         width: 100%;
     }
@@ -700,6 +702,7 @@ $color-main:#1d4872;
 }
 /* 當螢幕寬度小於等於 770像素 - 手機 */
 @media screen and (max-width: 770px) {
+    // 主頁購買區塊
     .buy-left {
         padding-right: 15px !important;
     }
@@ -710,6 +713,7 @@ $color-main:#1d4872;
             padding-bottom: 50px !important;
         }
     }
+    // footer調整
     #footer{
         width: 100%;
     }
