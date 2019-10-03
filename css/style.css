@@ -677,12 +677,13 @@ fieldset {
   font-weight: 900;
   line-height: 1;
   text-align: left;
+  border-radius: 10px;
 }
 
 #name-box, #phone-box, #email-box, #content-box {
   width: 100%;
   background-color: #fff;
-  margin: 5px 0;
+  margin: 10px 0;
   border: 1px solid #1d4872;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -748,6 +749,7 @@ fieldset {
   .product-imgdescribe .product-img {
     text-align: center;
     width: 450px;
+    height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -776,7 +778,7 @@ fieldset {
     width: 100%;
   }
   .aboutme {
-    width: 100%;
+    width: 1350px;
     margin: 30px auto;
     padding: 0px auto;
     text-align: center;
@@ -785,20 +787,53 @@ fieldset {
   .aboutme-box {
     margin: 5px auto;
     padding: 20px auto;
-    width: 900px;
+    width: 850px;
+    text-align: center;
   }
-  .aboutmepic {
-    width: 100%;
-    margin: auto 20px;
+  .aboutme-box .aboutmepic {
+    width: 850px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 20 auto;
   }
-  .storepic {
-    width: 100%;
-    margin: auto 20px;
+  .aboutme-box .storepic {
+    width: 850px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 20 auto;
+  }
+  .aboutme-box h2 {
+    width: 850px;
+    margin: 20 auto;
+  }
+  .aboutme-box h3 {
+    width: 870px;
+    height: auto;
+    padding: 15px auto;
+    margin: 25px auto;
+  }
+  .aboutme-box p {
+    width: 850px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding: 15px auto;
+    margin: 25px auto;
+  }
+  .aboutme-box #map {
+    margin-top: 30px;
+    width: 850px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 25px auto;
   }
 }
 
-/* 當螢幕寬度小於等於 1379 像素 - */
-@media screen and (max-width: 1379px) {
+/* 當螢幕寬度小於等於 1366 像素 - */
+@media screen and (max-width: 1366px) {
   .product-box {
     width: 100%;
     display: -ms-grid;
@@ -855,8 +890,8 @@ fieldset {
     padding: 0px auto;
   }
   .product-imgdescribe .product-img {
-    text-align: center;
     width: 650px;
+    height: 100%;
     height: 650px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -890,7 +925,7 @@ fieldset {
     width: 100%;
   }
   .aboutme {
-    width: 100%;
+    width: 950px;
     margin: 30px auto;
     padding: 0px auto;
     text-align: center;
@@ -899,20 +934,53 @@ fieldset {
   .aboutme-box {
     margin: 5px auto;
     padding: 20px auto;
-    width: 600px;
+    width: 650px;
+    text-align: center;
   }
-  .aboutmepic {
-    width: 100%;
+  .aboutme-box .aboutmepic {
+    width: 650px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin: 20 auto;
   }
-  .storepic {
-    width: 100%;
+  .aboutme-box .storepic {
+    width: 650px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin: 20 auto;
+  }
+  .aboutme-box h2 {
+    width: 650px;
+    margin: 20 auto;
+  }
+  .aboutme-box h3 {
+    width: 670px;
+    height: auto;
+    padding: 15px auto;
+    margin: 25px auto;
+  }
+  .aboutme-box p {
+    width: 650px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding: 15px auto;
+    margin: 25px auto;
+  }
+  .aboutme-box #map {
+    margin-top: 30px;
+    width: 650px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 25px auto;
   }
 }
 
-/* 當螢幕寬度小於等於 750像素 - 手機 */
-@media screen and (max-width: 750px) {
+/* 當螢幕寬度小於等於 786像素 - 手機 */
+@media screen and (max-width: 786px) {
   .product-box {
     width: 100%;
     display: -ms-grid;
@@ -961,6 +1029,7 @@ fieldset {
   }
   .product-imgdescribe .product-img {
     width: 400px;
+    height: 100%;
   }
   .product-imgdescribe .product-img img {
     width: 350px;
@@ -985,17 +1054,6 @@ fieldset {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     height: 900px;
-  }
-  #contactus {
-    width: 100%;
-  }
-  .contactus-2 {
-    width: 100%;
-    padding: 0 5px;
-  }
-  .contactus-2 .contactpic {
-    width: 150px;
-    margin: 0 auto;
   }
   #footer {
     width: 100%;
@@ -1066,6 +1124,205 @@ fieldset {
     -o-object-fit: cover;
        object-fit: cover;
     margin: 25px auto;
+  }
+  #contactus {
+    width: 100%;
+  }
+  #contactus p {
+    width: 590px !important;
+    margin: 10px auto;
+    font-size: 12px;
+  }
+  #contactus .contactpic {
+    width: 560px !important;
+  }
+  .contactus-box {
+    width: 550px;
+    margin: 20px auto;
+    padding: 15px auto;
+    font-size: 12px !important;
+  }
+  #name-box, #phone-box, #email-box, #content-box {
+    width: 460px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+  }
+}
+
+/* 當螢幕寬度小於等於 360像素 - 手機 */
+@media screen and (max-width: 360px) {
+  .product-box {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    margin: 20px auto;
+  }
+  .showbox01 {
+    width: 330px;
+    height: 330px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    vertical-align: middle;
+    padding: 20px auto;
+    margin: 10px auto;
+  }
+  .showbox02 {
+    width: 260px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    vertical-align: middle;
+    padding: 20px auto;
+    margin: 10px auto;
+  }
+  .showbox02 h1 {
+    width: 260px;
+  }
+  .showbox02 p {
+    width: 260px;
+  }
+  .showbox02 .shopping-notes {
+    width: 260px;
+  }
+  #show-image {
+    width: 290px !important;
+    height: 290px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .abgne-block-20120106 a img {
+    width: 50px !important;
+    height: 50px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .product-imgdescribe {
+    width: 300px;
+    margin: 10px 20px;
+    padding: 0px 20px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .product-imgdescribe .product-img {
+    width: 300px;
+    height: 100%;
+    margin: 10px 5px;
+    padding: 0px 5px;
+  }
+  .product-imgdescribe .product-img img {
+    width: 300px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .buy-left {
+    padding-right: 15px !important;
+    height: 330px !important;
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  .buy-right {
+    padding-left: 15px !important;
+    height: 330px !important;
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  #login {
+    width: 100%;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    height: 1150px;
+  }
+  #footer {
+    width: 100%;
+  }
+  .inner {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100%;
+    height: 100%;
+    margin: 15px auto;
+    padding: 5px auto;
+  }
+  .inner h5 {
+    width: 100%;
+  }
+  .inner content {
+    width: 100%;
+  }
+  .aboutme {
+    width: 100%;
+    margin: 30px auto;
+    padding: 0px auto;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .aboutme-box {
+    margin: 5px auto;
+    padding: 20px auto;
+    width: 300px;
+    text-align: center;
+  }
+  .aboutme-box .aboutmepic {
+    width: 250px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 20 auto;
+  }
+  .aboutme-box .storepic {
+    width: 250px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 20 auto;
+  }
+  .aboutme-box h2 {
+    width: 250px;
+    margin: 20 auto;
+  }
+  .aboutme-box h3 {
+    width: 270px;
+    height: auto;
+    padding: 15px auto;
+    margin: 25px auto;
+  }
+  .aboutme-box p {
+    width: 250px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding: 15px auto;
+    margin: 25px auto;
+  }
+  .aboutme-box #map {
+    margin-top: 30px;
+    width: 250px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 25px auto;
+  }
+  #contactus {
+    width: 100%;
+  }
+  #contactus p {
+    width: 330px !important;
+  }
+  #contactus .contactpic {
+    width: 320px !important;
+  }
+  .contactus-box {
+    width: 330px;
+    margin: 20px auto;
+    padding: 15px auto;
+  }
+  #name-box, #phone-box, #email-box, #content-box {
+    width: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */
